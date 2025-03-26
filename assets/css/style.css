@@ -205,42 +205,29 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-    header {
-        min-height: 80px;
+    #header {
+        min-height: 80px; 
     }
 
-
     .hamburger {
-        height: 80px;
+        height: 60px;
     }
 
     .hamburger img {
-        width: 25px;
-    }
-
-    .call-to-action {
-        height: 80px;
-    }
-
-    .call-to-action-text {
-        font-size: 14px;
-    }
-
-    .call-to-action-text h2 {
-        font-size: 20px;
+        width: 20px;
     }
 
     .left-side-header {
-        padding-left: 15px;
+        padding: 0;
         gap: 20px;
     }
 
     .left-side-header img {
-        width: 40%;
+        width: 30%;
     }
 
     .left-side-text p {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 16px;
     }
 
@@ -585,6 +572,21 @@ a {
         position: relative;
         top: 50px;
         left: 250px;
+    }
+    .slider-content{
+        top: 50px;
+    }
+    .slider-btn{
+        position: relative;
+        top: 80px;
+    }
+}
+
+@media screen and (max-width: 552px) {
+    .scroll {
+        position: relative;
+        top: 50px;
+        left: 200px;
     }
 }
 
