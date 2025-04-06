@@ -608,6 +608,45 @@ a {
 .section2-left-div .btns a:last-child img {
     color: #C49A6C;
 }
+.section-03{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFF3E0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.section-03 .center-rectangle{
+    width: 90%;
+    height: 240px;
+    position: absolute;
+    top: -120px;
+    background-image: url(../images/Rectangle\ 13.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 60px;
+}
+.section-03 .center-rectangle h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: #FEF9F1;
+    text-transform: uppercase;
+}
+.section-03 .center-rectangle p{
+    font-size: 28px;
+    line-height: 28px;
+    color: #FEF9F1;
+    font-weight: 300;
+}
+
+/* .section-03 .center-rectangle img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+} */
 
 @keyframes horizontalBounce {
 
