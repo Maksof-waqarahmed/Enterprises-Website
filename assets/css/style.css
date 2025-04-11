@@ -618,7 +618,7 @@ a {
     /* align-items: center; */
 }
 .section-03 .center-rectangle{
-    width: 90%;
+    width: 70%;
     height: 240px;
     position: absolute;
     top: -120px;
@@ -642,11 +642,10 @@ a {
     font-weight: 300;
 }
 
-/* .section-03 .center-rectangle img{
-    width: 90%;
-    height: 90%;
-    object-fit: cover;
-} */
+.section-03 .services-content{
+    background-color: #770F05;
+    width: 100%;
+}
 
 @keyframes horizontalBounce {
 
