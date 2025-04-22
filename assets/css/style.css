@@ -608,44 +608,161 @@ a {
 .section2-left-div .btns a:last-child img {
     color: #C49A6C;
 }
-.section-03{
+
+.section-03 {
     width: 100%;
-    height: 100vh;
-    background-color: #FFF3E0;
-    position: relative;
+    height: 238px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-}
-.section-03 .center-rectangle{
-    width: 70%;
-    height: 240px;
-    position: absolute;
-    top: -120px;
-    background-image: url(../images/Rectangle\ 13.png);
-    display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    line-height: 60px;
-}
-.section-03 .center-rectangle h2{
-    font-size: 30px;
-    font-weight: 600;
-    color: #FEF9F1;
-    text-transform: uppercase;
-}
-.section-03 .center-rectangle p{
-    font-size: 28px;
-    line-height: 28px;
-    color: #FEF9F1;
-    font-weight: 300;
+    position: relative;
+    background-color: #fff3e0;
 }
 
-.section-03 .services-content{
-    background-color: #770F05;
-    width: 100%;
+.section-03 .center-content {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../images/Rectangle\ 13.png);
+    position: absolute;
+    bottom: 119px;
 }
+
+.section-03 .center-content h2 {
+    font-size: 28px;
+    line-height: 44px;
+    color: #fef9f1;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.section-03 .center-content p {
+    font-size: 28px;
+    line-height: 44px;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #fef9f1;
+    text-align: center;
+
+}
+
+.section-04 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff3e0;
+}
+
+.section-04 .center-content {
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 126px;
+    padding-bottom: 129px;
+}
+
+.section-04 .center-content .top-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.section-04 .center-content .top-content h4 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #c49a6c;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+}
+
+.section-04 .center-content .top-content div {
+    width: 258px;
+    height: 1px;
+    background-color: #c49a6c;
+}
+
+.section-04 .center-content .top-content h1 {
+    font-size: 32px;
+    line-height: 22px;
+    color: #770f05;
+    margin-top: 3px;
+    font-weight: 600;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+}
+
+.section-04 .cards-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 45px;
+    padding-bottom: 129px;
+}
+
+.section-04 .cards-container .card {
+    width: 436px;
+    min-height: 318px;
+    padding: 50px 55px 49px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+    background-color: #f4e4ca;
+}
+
+.section-04 .cards-container .card .card-top-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-04 .cards-container .card .card-top-content .card-top-text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.section-04 .cards-container .card .card-top-content .card-top-text .verticalLine {
+    width: 1px;
+    height: 55px;
+    background-color: #770f05;
+}
+
+.section-04 .cards-container .card .card-top-content .card-top-text h1 {
+    font-size: 20px;
+    line-height: 32px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #770f05;
+}
+
+.section-04 .cards-container .card p {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #343434;
+}
+
 
 @keyframes horizontalBounce {
 
@@ -958,6 +1075,14 @@ a {
 
     .about-center .section2-left-div btns {
         margin-top: -2px;
+    }
+
+}
+
+@media screen and (max-width: 1450px) {
+
+    .section-03 .center-content{
+        width: 90% !important;
     }
 
 }
