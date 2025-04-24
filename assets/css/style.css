@@ -651,6 +651,8 @@ a {
 
 }
 
+
+
 .section-04 {
     width: 100%;
     display: flex;
@@ -835,12 +837,62 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5px;
+}
+
+.section-05 .center-content .top-content .contact-box .email-box div h4{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #c49a6c;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+}
+
+.section-05 .center-content .top-content .contact-box .email-box div p{
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #343434;
+    margin-top: -10px;
 }
 
 .section-05 .center-content .top-content .contact-box .line{
     width: 1px;
     height: 150px;
     background-color: #C49A6C;
+}
+.section-05 .center-content .top-content .contact-box .time-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.section-05 .center-content .top-content .contact-box .time-box div h4{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #c49a6c;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+}
+
+.section-05 .center-content .top-content .contact-box .time-box div p{
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #343434;
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 1425px) {
+    .section-05 .center-content {
+        flex-direction: column;
+        max-width: 60%;
+    }
 }
 
 
@@ -1160,10 +1212,11 @@ a {
 
 }
 
-@media screen and (max-width: 1450px) {
+
+/* @media screen and (max-width: 1450px) {
 
     .section-03 .center-content{
         width: 90% !important;
     }
 
-}
+} */
